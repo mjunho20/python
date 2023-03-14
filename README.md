@@ -94,6 +94,40 @@ print(a,'+', b , '=',sum )
 print(b,'-', a , '=',min)
 print(b, '/', a, '=',div)   # 보여지는 연산과정을 출력하고싶을때
 ```
+#### input() 함수 이용 계산기  
+```
+a = int(input("첫번째 숫자를 입력해주세요:"))
+b = int(input("두번쨰 숫자를 입력해주세요:"))
+sum = a+b
+min = b - a
+div = b/a
+mul = a*b
+print(a,"+",b,"=",sum)
+print(a,"-",b,"=",min)
+print(a,"/",b,"=",div)
+print(a,"*",b,"=",mul)
+```
+a = int(input("첫번째 숫자를 입력해주세요:"))
+b = int(input("두번쨰 숫자를 입력해주세요:"))
+result1 = a**b
+result2 = a//b
+result3 = a%b
+print(a,"**",b,"=",result1)
+print(a,"//",b,"=",result2)
+print(a,"%",b,"=",result3)
+```
+num1 = input("숫자입력1:")
+num2 = input("숫자입력2:")
+result = num1+num2
+print(type(num1))
+print(num1, "+",num2,"=",result)   #이와 같은경우는 int로 지정을 안해주어서 텍스트로 인식해서 나오는경우임.
+```
+num1 = input("이름을 입력해주세요:")
+num2 = input("전화번호를 입력해주세요:")
+num3 = int(input("무게를 입력해주세요:"))
+result = num3*10
+print("입력한 내용은 이름:",num1,",","전화번호:",num2,"입니다.","산출금액은",num3,"(g)","X",10,"원","=",result,"원입니다.")
+```
 
 
 
