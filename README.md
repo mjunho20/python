@@ -56,10 +56,12 @@ print(y)
 print(z)
 
 ```
+```
 a=b=c="오렌지"
 print(a)
 print(b)
 print(c)
+```
 ```
 fruits = ["포도","딸기","수박"]
 x,y,z = fruits
@@ -67,11 +69,13 @@ print(x)
 print(y)
 print(z)
 ```
+```
 x = "Life"
 y = "is"
 z = "Beautiful"
 print(x,y,z)
 print(x+y+z)  # 띄어쓰기 유무의 차이점이 있다.
+```
 ```
 a = 1
 b = 2
@@ -107,6 +111,7 @@ print(a,"-",b,"=",min)
 print(a,"/",b,"=",div)
 print(a,"*",b,"=",mul)
 ```
+```
 a = int(input("첫번째 숫자를 입력해주세요:"))
 b = int(input("두번쨰 숫자를 입력해주세요:"))
 result1 = a**b
@@ -116,11 +121,13 @@ print(a,"**",b,"=",result1)
 print(a,"//",b,"=",result2)
 print(a,"%",b,"=",result3)
 ```
+```
 num1 = input("숫자입력1:")
 num2 = input("숫자입력2:")
 result = num1+num2
 print(type(num1))
 print(num1, "+",num2,"=",result)   #이와 같은경우는 int로 지정을 안해주어서 텍스트로 인식해서 나오는경우임.
+```
 ```
 num1 = input("이름을 입력해주세요:")
 num2 = input("전화번호를 입력해주세요:")
